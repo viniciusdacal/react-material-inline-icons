@@ -1,0 +1,24 @@
+{
+  "name": "react-material-inline-icons",
+  "version": "1.0.0",
+  "description": "material inline svg icons for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusdacal/react-material-inline-icons.git"
+  },
+  "keywords": [
+    "react",
+    "material-icons",
+    "inline-icons"
+  ],
+  "author": "Vinicius Dacal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viniciusdacal/react-material-inline-icons/issues"
+  },
+  "homepage": "https://github.com/viniciusdacal/react-material-inline-icons#readme"
+}
