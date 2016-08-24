@@ -37,7 +37,6 @@ import InformationOutline from './InformationOutline.js';
 import Lock from './Lock.js';
 import Magnify from './Magnify.js';
 import Matrix from './Matrix.js';
-import MissingConnection from './MissingConnection.js';
 import MinusCircleOutline from './MinusCircleOutline.js';
 import Pencil from './Pencil.js';
 import Percent from './Percent.js';
@@ -96,7 +95,6 @@ export default {
   'lock': Lock,
   'magnify': Magnify,
   'matrix': Matrix,
-  'missing-connection': MissingConnection,
   'minus-circle-outline': MinusCircleOutline,
   'pencil': Pencil,
   'view-agenda': ViewAgenda,
