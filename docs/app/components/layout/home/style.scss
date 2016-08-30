@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Tahoma;
+  font-size: 12px;
+}
+
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -6,12 +16,16 @@
 }
 
 .gridItem {
+  width: 24%;
   display: inline-flex;
-  border: 1px solid #888;
-  margin: 5px;
   padding: 5px;
-  border-radius: 4px;
+  align-items: center;
   > svg {
-    fill: #888;
+    fill: #777;
+  }
+
+  .iconName {
+    color: #666;
+    margin-left: 8px;
   }
 }

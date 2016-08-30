@@ -11,6 +11,7 @@ const Home = () => {
             return (
               <div key={iconName} className={css.gridItem}>
                 {React.createElement(Icons[iconName])}
+                <span className={css.iconName}>{iconName}</span>
               </div>
             );
           })}
