@@ -49,9 +49,6 @@ module.exports = {
     ]
   },
   postcss: [autoprefixer],
-  sassLoader: {
-    data: '@import "' + path.resolve(__dirname, 'app/theme/_theme.scss') + '";'
-  },
   plugins: [
     new ExtractTextPlugin('docs.css', { allChunks: true }),
     new webpack.HotModuleReplacementPlugin(),
