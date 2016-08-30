@@ -6,6 +6,6 @@ import Home from './components/layout/home';
 
 ReactDOM.render((
   <Router history={useRouterHistory(createHashHistory)({ queryKey: false })}>
-    <Route path="/" component={Home} />
+    <Route path='/' component={Home} />
   </Router>
 ), document.getElementById('app'));

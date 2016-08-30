@@ -1,12 +1,11 @@
 import React from 'react';
-import { Icon } from 'react-material-inline-icons';
-import Icons from 'react-material-inline-icons/Icon/svg';
+import * as Icons from 'react-material-inline-icons/Icon';
 
 const Home = () => {
   return (
     <article>
       <section>
-        {Object.keys(Icons).map(iconName => <Icon name={iconName} key={iconName}/>)}
+        {Object.keys(Icons).map(iconName => Icons)}
       </section>
     </article>
   );
